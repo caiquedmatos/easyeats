@@ -1,0 +1,34 @@
+<app-header></app-header>
+<main>
+    <div class="container">
+        <div class="box-perfil-title text-center">
+            <h1>Meu Perfil</h1>
+        </div>
+        <div class="box-perfil-dados">
+            <p>É um prazer ter você aqui no nosso aplicativo. Queremos que você se sinta em casa e aproveite ao máximo a
+                sua experiência conosco.</p>
+            <p>Aqui estão os seus dados de contato para que possamos ficar conectados:</p>
+            <p>Nome: <span>{{nome}}</span></p>
+            <p>E-mail: <span>{{email}}</span></p>
+            <p>Tel: <span>{{telefone}}</span></p>
+        </div>
+        <div class="box-btn-perfil">
+            <div class="box-btn-left">
+                <a href="altera-dados">Alterar Dados</a>
+            </div>
+            <div class="box-btn-right">
+                <a href="deleta-conta">Deletar Conta</a>
+            </div>
+        </div>
+        <div class="box-btn-sair">
+            <button (click)="Sair()" class="cta">
+                <span>Sair</span>
+                <svg viewBox="0 0 13 10" height="10px" width="15px">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </button>
+        </div>
+    </div>
+</main>
+<app-footer></app-footer>box-perfil

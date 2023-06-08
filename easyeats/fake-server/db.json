@@ -1,0 +1,65 @@
+{
+  "lista-hamburguers": [
+    {
+      "id": 1,
+      "hamburguer": "X-Bacon",
+      "ingrediente_1": "Hamburguer 200g",
+      "ingrediente_2": "Bacon Fatiado",
+      "ingrediente_3": "Salada",
+      "ingrediente_4": "Tomate",
+      "preco_hamburguer": "23"
+    }
+  ],
+  "lista-bebidas": [
+    {
+      "id": 1,
+      "bebida": "coca-cola",
+      "preco_bebida": "9"
+    }
+  ],
+  "lista-pratos": [
+    {
+      "id": 1,
+      "prato": "Moda da Casa",
+      "ingrediente_1": "Arroz",
+      "ingrediente_2": "Feijão",
+      "ingrediente_3": "Batata",
+      "ingrediente_4": "Bife Acebolado",
+      "preco_prato": "23"
+    },
+    {
+      "id": 2,
+      "prato": "Misturinha",
+      "ingrediente_1": "Arroz",
+      "ingrediente_2": "Feijão",
+      "ingrediente_3": "Ovo Cozido",
+      "ingrediente_4": "Bacon",
+      "preco_prato": "19"
+    }
+  ],
+  "lista-aperitivos": [
+    {
+      "id": 4,
+      "aperitivo": "teste",
+      "ingrediente_1": "teste",
+      "ingrediente_2": "",
+      "preco_aperitivo": "119"
+    },
+    {
+      "id": 5,
+      "aperitivo": null,
+      "ingrediente_1": null,
+      "ingrediente_2": null,
+      "preco_aperitivo": null
+    }
+  ],
+  "lista-sobremesas": [
+    {
+      "id": 1,
+      "sobremesa": "Petit Gateau",
+      "ingrediente_1": "Bolo Quente",
+      "ingrediente_2": "Sorvete de Baunilha",
+      "preco_sobremesa": "20"
+    }
+  ]
+}

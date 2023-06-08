@@ -1,0 +1,160 @@
+.pedidos {
+    padding: 20px 10px 5px 10px;
+    text-align: center;
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.box-btn-esp {
+    text-align: center;
+}
+
+.cta {
+    position: relative;
+    margin: 30px auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+}
+
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    display: block;
+    border-radius: 50px;
+    background: #71062E;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #F2E09D;
+}
+
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #F2E09D;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+    width: 100%;
+    background: #71062E;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active {
+    transform: scale(0.95);
+}
+
+.box-carrinho-itens h2,
+.box-carrinho-itens p {
+    color: #fff;
+}
+
+.box-carrinho-itens button {
+    background: #F2E09D;
+    border: #F2E09D;
+    color: #71062E;
+    padding: 10px 20px;
+    border-radius: 16px;
+}
+
+
+.box-carrinho-itens {
+    box-shadow: 0 0 10px #fff;
+    padding: 10px;
+    border-radius: 16px;
+    margin: 25px 0;
+}
+
+.box-carrinho-delete {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.itemId {
+    display: none;
+}
+
+.loader {
+    position: relative;
+    font-family: sans-serif;
+    display: flex;
+    height: auto;
+    width: auto;
+    letter-spacing: 3px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 12px;
+    font-size: 1.45em;
+    color: transparent;
+    background: linear-gradient(to right, #fff 33.3%, #F2E09D 33.3%, #F2E09D 66.6%, #fff 66.6%) no-repeat;
+    background-size: 300%;
+    background-position: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: infinite 1.4s load-loop ease;
+}
+
+.loader::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background: linear-gradient(to right, #71062E 33.3%, transparent 33.3%, transparent 66.6%, #71062E 66.6%) no-repeat;
+    background-size: 300%;
+    background-position: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation: infinite 1.4s load-loop ease;
+}
+
+@keyframes load-loop {
+    0% {
+        background-position: 100%;
+    }
+
+    40% {
+        background-position: 50%;
+    }
+
+    50% {
+        background-position: 50%;
+    }
+
+    90% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 0%;
+    }
+}

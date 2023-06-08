@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;800&display=swap');
+
+
+.div-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-login {
+  font-family: 'Sora', sans-serif;
+  color: #FFF6D4;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.box-login {
+  width: 300px;
+  height: 550px;
+  background-color: #7C002E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 15px;
+  height: 1000px;
+  margin-top: 70px;
+}
+
+input {
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  font-family: 'Sora', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  background-color: #FFF6D4;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  color: #71062E;
+  font-size: 20px;
+  font-family: 'Sora', sans-serif;
+  margin-left: 45px;
+  margin-top: 15px;
+}
+
+a {
+  font-family: 'Sora', sans-serif;
+  text-decoration: none;
+  color: #fff;
+  align-self: center;
+  margin-top: 50px;
+}
+
+.icon_people {
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  gap: 5px;
+}
+
+.pji {
+  color: #F8E9B7;
+  align-self: center;
+  font-family: 'Sora', sans-serif;
+  opacity: 0.6;
+}
+
+.inputs input {
+  padding: 4px 15px;
+}

@@ -1,0 +1,51 @@
+.box-alterar-dados h1{
+    color: #fff;
+    text-align: center;
+}
+
+.box-form-itens{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-form-itens label{
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.box-form-itens input{
+    margin-bottom: 5px;
+    padding: 8px 13px;
+    border-radius: 16px;
+}
+
+.box-btn-perfil {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  
+.box-btn-left{
+  margin: 20px 0;
+}
+
+
+.box-btn-left a {
+  background: #F2E09D;
+  color: #71062E;
+  padding: 10px 20px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.box-btn-right button {
+  color: #F2E09D;
+  background: #71062E;
+  padding: 10px 20px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-size: 16px;
+  border: 0;
+}

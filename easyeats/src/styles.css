@@ -1,0 +1,302 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,
+big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,
+dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,
+details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+main {
+    padding-bottom: 100px;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background: linear-gradient(192.4deg, #000000 8.2%, #220000 54.08%, #000000 87.57%) center, no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+}
+
+.flex-between-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+}
+
+.box-10 {
+    width: 10%;
+}
+
+.box-20 {
+    width: 20%;
+}
+
+.box-25 {
+    width: 15%;
+    padding: 0 15px;
+}
+
+.box-30 {
+    width: 30%;
+}
+
+.box-50 {
+    width: 40%;
+}
+
+.box-60 {
+    width: 60%;
+}
+
+.box-70 {
+    width: 70%;
+}
+
+.box-80 {
+    width: 80%;
+}
+
+.box-100 {
+    width: 100%;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+footer {
+    position: fixed;
+    background-color: #333;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+}
+
+
+ul.footer-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.box-ajusteajuste {
+    padding: 50px;
+}
+
+.footer-ul li {
+    position: relative;
+}
+
+.footer-ul .sub-menu {
+    display: none;
+    transition: .6s all ease;
+    position: absolute;
+    bottom: 0%;
+    left: -20%;
+    background: #333;
+    padding: 14px;
+    border-radius: 16px;
+    width: 78%;
+    max-width: 60px;
+    height: 111px;
+}
+
+.footer-ul li:hover .sub-menu {
+    display: block;
+    transition: .6s all ease;
+    bottom: 96%;
+}
+
+.sub-menu li {
+    padding-bottom: 25px;
+}
+
+
+
+
+.box-title-main h1 {
+    color: #FFF6D4;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+
+.flex-1 {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-left: 15px;
+    padding-right: 15px;
+    /* flex-wrap: wrap; */
+    width: 100%;
+}
+
+
+.box-img-header img {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.ajustes-header-icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    font-size: 30px
+}
+
+.box-icon-header img {
+    filter: contrast(0.2);
+    width: 46px;
+    margin-right: 20px;
+}
+
+.box-item-cardapio {
+    position: relative;
+    content: "";
+    background: #fff;
+    height: 100px;
+    width: 100%;
+    border-radius: 16px;
+    margin: 15px 0;
+}
+
+.box-item-cardapio p {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    font-size: 23px;
+}
+
+.box-item-cardapio a {
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.box-btn-adicionar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.box-btn-adicionar button {
+    width: 50%;
+}
+
+@media (min-width: 850px){
+    main, header, footer{
+        display: none;
+    }
+
+}

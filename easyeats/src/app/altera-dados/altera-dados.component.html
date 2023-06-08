@@ -1,0 +1,40 @@
+<app-header></app-header>
+<main>
+    <div class="container">
+        <div class="box-alterar-dados">
+            <h1>Insira seus novos dados:</h1>
+            <div class="box-form-itens">
+                <label for="">Nome:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Seu nome" #nome />
+            </div>
+            <div class="box-form-itens">
+                <label for="">Sua senha atual:</label>
+                <input type="password" id="senhaAtual" name="senhaAtual" required placeholder="Sua senha atual"
+                    #senhaAtual />
+            </div>
+            <div class="box-form-itens">
+                <label for="">Sua nova senha:</label>
+                <input type="password" id="senha" name="senha" required placeholder="Sua senha nova" #senha />
+            </div>
+            <div class="box-form-itens">
+                <label for="">Seu email:</label>
+                <input type="email" id="email" name="email" required placeholder="Seu e-mail" #email />
+            </div>
+            <div class="box-form-itens">
+                <label for="">Seu telefone:</label>
+                <input type="number" id="telefone" name="telefone" required placeholder="Telefone" #telefone />
+            </div>
+            <div class="box-btn-perfil">
+                <div class="box-btn-left">
+                    <a href="meu-perfil">Cancelar</a>
+                </div>
+                <div class="box-btn-right">
+                    <button class="botao_concluir" (click)="AlterarDados(nome.value, senhaAtual.value, senha.value, email.value, telefone.value)">
+                        Concluir
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<app-footer></app-footer>

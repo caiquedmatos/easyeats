@@ -1,0 +1,26 @@
+<main>
+    <div class="container">
+        <div class="flex">
+            <div class="box-100">
+                <div class="box-carrinho-itens" *ngFor="let item of itens">
+                    <div class="flex">
+                        <div class="box-80">
+                            <h2 #item>{{ item.item }}</h2>
+                            <p #nome>{{item.nome}}</p>
+                            <p #preco>{{ item.preco }}</p>
+                        </div>
+                        <div class="box-20 box-carrinho-delete">
+                            <textarea class="itemId" #itemId>{{item.itemId}}</textarea>
+                            <button (click)="deletaPost(itemId.value)">Pedido Entregue!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="box-100">
+            </div>
+        </div>
+    </div>
+</main>
+<app-footer></app-footer>

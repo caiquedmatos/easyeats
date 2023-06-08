@@ -1,0 +1,39 @@
+<app-header></app-header>
+<main>
+    <div class="container">
+        <div class="flex">
+            <div class="box-100">
+                <div class="box-img-esp">
+                    <img class="img-responsive" src="{{img}}" alt="">
+                </div>
+            </div>
+            <div class="box-100">
+                <div class="box-second-title-esp">
+                    <h2>{{titulo}}</h2>
+                </div>
+            </div>
+            <div class="box-100">
+                <div class="box-text-esp">
+                    <p>{{descricao}}</p>
+                </div>
+            </div>
+            <div class="box-100">
+                <div class="box-text-esp">
+                    <p style="font-size: 20px;"><sub>R$</sub> {{preco}}</p>
+                </div>
+            </div>
+            <div class="box-100">
+                <div class="box-btn-esp">
+                    <button (click)="adicionaComida()" type="submit" class="cta">
+                        <span>Adicionar</span>
+                        <svg viewBox="0 0 13 10" height="10px" width="15px">
+                          <path d="M1,5 L11,5"></path>
+                          <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                      </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<app-footer></app-footer>

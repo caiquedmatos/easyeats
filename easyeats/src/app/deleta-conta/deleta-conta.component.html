@@ -1,0 +1,37 @@
+<app-header></app-header>
+<main>
+    <div class="container">
+        <div class="box-deleta-conta">
+            <h1 class="text-center">Olá</h1>
+            <p>Lamentamos muito que você esteja considerando deletar sua conta.</p>
+            <p>Se houve algo que fizemos ou alguma falha em nosso aplicativo que tenha levado a essa decisão, pedimos
+                sinceras desculpas. Valorizamos cada usuário e acreditamos que a sua experiência seja sempre positiva.
+            </p>
+            <p>Entendemos que cada pessoa tem suas razões e circunstâncias únicas, e respeitamos sua decisão. Se houver
+                algo que possamos fazer para melhorar sua experiência ou resolver qualquer problema que tenha
+                encontrado, por favor, entre em contato conosco. Estamos aqui para ouvir e ajudar.</p>
+            <p>Gostaríamos de agradecer por ter sido parte da nossa comunidade até agora. Esperamos que você tenha tido
+                momentos agradáveis e proveitosos em nossa plataforma. Se no futuro você decidir voltar, estaremos aqui
+                de braços abertos para recebê-lo(a) novamente.</p>
+            <p>Desejamos a você sucesso e felicidade em suas futuras jornadas online. Se houver algo em que possamos
+                melhorar, por favor, não hesite em nos informar. Sua opinião é muito importante para nós.</p>
+        </div>
+        <div class="box-form-itens">
+            <label for="">Insira sua senha:</label>
+            <input type="password" id="senha" name="senha" required placeholder="senha" #senhaTest />
+        </div>
+        <div class="box-btn-perfil">
+            <div class="box-btn-left">
+                <a href="meu-perfil">Cancelar</a>
+            </div>
+            <div class="box-btn-right">
+                <div class="botao_direito">
+                    <button class="botao_direita" (click)="DeletarUsuario(senhaTest.value)">
+                        Deletar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<app-footer></app-footer>

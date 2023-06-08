@@ -1,0 +1,73 @@
+/* Preloader */
+
+.preloader{
+    background: linear-gradient(192.4deg, #000000 8.2%, #220000 54.08%, #000000 87.57%)
+    no-repeat center center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloader img{
+    width: 70%;
+}
+
+
+.box-escolha-home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: showMe 8s;
+}
+
+@keyframes showMe {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    75% { opacity: 0; }
+    100% { opacity: 1; }    
+}
+
+
+.box-img-escolha {
+    max-width: 300px;
+    width: 100%;
+}
+
+.box-btn-login{
+    margin-bottom: 30px ;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #F2E09D;
+    background-color: #71062E;
+    border-radius: 18px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    outline: none;
+    max-width: 200px;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #E91E63;
+}
+
+.button:active {
+    background-color: #C2185B;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(2px);
+}

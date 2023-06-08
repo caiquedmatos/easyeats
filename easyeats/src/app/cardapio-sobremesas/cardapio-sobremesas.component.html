@@ -1,0 +1,23 @@
+<app-header></app-header>
+<main>
+  <div class="container">
+    <div class="flex">
+      <a class="box-100 btn-aperitivos" *ngFor="let burguer of burguers" [href]="burguer.link">
+        <div class="flex-1">
+          <div class="box-20">
+            <img class="img-responsive" [src]="burguer.imagem" alt="">
+          </div>
+          <div class="box-60">
+            <p>{{ burguer.nome }}</p>
+            <p style="font-size: 13px;height: 35px;overflow: scroll;">{{ burguer.descricao }}</p>
+          </div>
+          <div class="box-20">
+            <p style="font-size: 14px">{{ burguer.preco }}</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+</main>
+<app-footer></app-footer>

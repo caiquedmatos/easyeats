@@ -1,0 +1,92 @@
+.box-btn-esp {
+    text-align: center;
+}
+
+.cta {
+    position: relative;
+    margin: 30px auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+}
+
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    display: block;
+    border-radius: 50px;
+    background: #71062E;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #F2E09D;
+}
+
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #F2E09D;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+    width: 100%;
+    background: #71062E;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active {
+    transform: scale(0.95);
+}
+
+.box-carrinho-itens h2,
+.box-carrinho-itens p{
+    color: #fff;
+}
+
+.box-carrinho-itens button {
+    background: #F2E09D;
+    border: #F2E09D;
+    color: #71062E;
+    padding: 10px 20px;
+    border-radius: 16px;
+}
+
+
+.box-carrinho-itens {
+    box-shadow: 0 0 10px #fff;
+    padding: 10px;
+    border-radius: 16px;
+    margin: 25px 0;
+}
+
+.box-carrinho-delete{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.itemId {
+    display: none;
+}

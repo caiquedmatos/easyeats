@@ -1,0 +1,118 @@
+/* .box-tipo-cardapio {
+    background: #000;
+    padding-left: 26px;
+    border-radius: 16px;
+    height: 100px;
+    filter: drop-shadow(0 0 4px #f9f9f9);
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+} */
+
+.box-title-fav h1{
+    color: #fff;
+    text-align: center;
+}
+
+.box-tipo-cardapio {
+    background: url(../../assets/imagens/div-2.png) center no-repeat;
+    height: 46px;
+    display: flex;
+    align-items: flex-end;
+    margin: 30px 0;
+    filter: drop-shadow(0 0 2px #f9f9f9);
+    border-radius: 16px;
+    padding: 20px 0 20px 15px;
+    position: relative;
+    max-width: 315px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.box-tipo-cardapio::after,
+.box-tipo-cardapio-1::after,
+.box-tipo-cardapio-2::after,
+.box-tipo-cardapio-3::after{
+    position: absolute;
+    content: url(../../assets/imagens/starr.png);
+    right: 3%;
+    top: 12%;
+    filter: drop-shadow(0px 2px 9px black);
+}
+
+.box-tipo-cardapio a {
+    font-size: 21px;
+    color: #FFF6D4;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box-tipo-cardapio-1 {
+    background: url(../../assets/imagens/div-1.png) center no-repeat;
+    height: 46px;
+    display: flex;
+    align-items: flex-end;
+    margin: 30px 0;
+    filter: drop-shadow(0 0 2px #f9f9f9);
+    border-radius: 16px;
+    padding: 20px 0 20px 15px;
+    position: relative;
+    max-width: 315px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.box-tipo-cardapio-1 a {
+    font-size: 21px;
+    color: #FFF6D4;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box-tipo-cardapio-2 {
+    background: url(../../assets/imagens/div.png) center no-repeat;
+    height: 46px;
+    display: flex;
+    align-items: flex-end;
+    margin: 30px 0;
+    filter: drop-shadow(0 0 2px #f9f9f9);
+    border-radius: 16px;
+    padding: 20px 0 20px 15px;
+    position: relative;
+    max-width: 315px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.box-tipo-cardapio-2 a {
+    font-size: 21px;
+    color: #FFF6D4;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box-tipo-cardapio-3 {
+    background: url(../../assets/imagens/div-3.png) center no-repeat;
+    height: 46px;
+    display: flex;
+    align-items: flex-end;
+    margin: 30px 0;
+    filter: drop-shadow(0 0 2px #f9f9f9);
+    border-radius: 16px;
+    padding: 20px 0 20px 15px;
+    position: relative;
+    max-width: 315px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.box-tipo-cardapio-3 a {
+    font-size: 21px;
+    color: #FFF6D4;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,28 @@
+<app-header></app-header>
+<main>
+    <div class="container">
+        <div class="loader">Preparando Pedido</div>
+    </div>
+    <div class="container">
+        <div class="flex">
+            <div class="box-100">
+                <h2 class="pedidos">Seus pedidos estão a caminho!</h2>
+                <div class="box-carrinho-itens" *ngFor="let item of itens">
+                    <div class="flex">
+                        <div class="box-80">
+                            <h2 #item>{{ item.item }}</h2>
+                            <p #preco>{{ item.preco }}</p>
+                        </div>
+                        <div class="box-20 box-carrinho-delete">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="box-100">
+            </div>
+        </div>
+    </div>
+</main>
+<app-footer></app-footer>

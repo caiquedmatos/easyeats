@@ -1,0 +1,10 @@
+.btn-cardapios {
+    background: #000;
+    color: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    text-decoration: none;
+    font-size: 2rem;
+    filter: drop-shadow(0 0 5px #f9f9f9);
+    margin: 15px 0;
+}

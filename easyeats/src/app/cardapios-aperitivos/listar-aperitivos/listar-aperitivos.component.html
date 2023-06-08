@@ -1,0 +1,23 @@
+<app-header></app-header>
+<main>
+  <div class="container">
+    <div class="flex">
+      <a class="box-100 btn-aperitivos" *ngFor="let aperitivo of aperitivos" [href]="aperitivo.link">
+        <div class="flex-1">
+          <div class="box-20">
+            <img class="img-responsive" [src]="aperitivo.imagem" alt="">
+          </div>
+          <div class="box-60">
+            <p>{{ aperitivo.nome }}</p>
+            <p style="font-size: 13px;">{{ aperitivo.descricao }}</p>
+          </div>
+          <div class="box-20">
+            <p style="font-size: 14px">{{ aperitivo.preco }}</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+</main>
+<app-footer></app-footer>

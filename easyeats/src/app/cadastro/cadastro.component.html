@@ -1,0 +1,26 @@
+<body>
+  <div class="div-title">
+    <h1 class="title-login">CADASTRE-SE</h1>
+  </div>
+
+  <div class="box">
+    <div class="box-login">
+      <img class="icon_people" src="../assets/imagens/icon_people_.png" alt="">
+      <div class="inputs">
+        <input placeholder="Digite seu nome" type="text" required #nome>
+        <input placeholder="Digite seu email" type="email" required #email>
+        <input placeholder="Digite sua senha" type="password" required #senha>
+        <input placeholder="(11) 99999-9999" type="text" required #telefone>
+        <button (click)="cadastroUser(nome.value, email.value, senha.value, telefone.value)">Cadastrar</button>
+        <a href="/login">Ja tenho conta.</a>
+      </div>
+  </div>
+</div>
+
+<div class="rodape">
+  <img src="../assets/imagens/EASY_EATS.svg" alt="">
+  <p class="pji">PROJETO INTERDISCIPLINAR - FECAP</p>
+</div>
+</body>
+
+
